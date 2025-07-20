@@ -188,6 +188,22 @@ main > section{
     filter: grayscale(100%);
 }
 
+/* footer related styles */
+.footer{
+    display: flex;
+   max-width: 1440px; 
+   height: 100px;
+   /* text-align: center; */
+   justify-content: center;
+   align-items: center;
+   margin: 130px 240px;
+   padding: 38px auto;
+   border-radius: 8px;
+   background-color: rgba(255, 244, 231, 1);
+}
+.footer-text{
+    font-size: 1.25rem;
+}
 
 
 
@@ -223,6 +239,11 @@ main > section{
         margin-top: 20px;
         margin-left: 20px;
     }
+    .footer{
+        width: 100%;
+        margin: 120px auto;
+        text-align: center;
+    }
 }
 
 
@@ -243,5 +264,11 @@ main > section{
     #experience-badge{
         margin-top: 20px;
         margin-left: 20px;
+    }
+    .footer{
+        width: 100%;
+        margin-top: 130px;
+        margin-left: 0px;
+        text-align: center;
     }
 }
